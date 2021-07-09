@@ -34,7 +34,7 @@ jobs:
       - run : 
           name: Test front-end
           command: |
-            npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
+            npm run test
 workflows:
   my_workflow:
     jobs:
